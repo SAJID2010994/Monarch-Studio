@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "poppins";
+  src: url("/fonts/poppins.ttf");
+}
+@font-face {
+  font-family: "droid";
+  src: url("/fonts/droid.ttf");
+}
+@font-face {
+  font-family: "canva";
+  src: url("/fonts/canva.otf");
+}
+
+
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body,html{
+  overflow: hidden;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.nav{
+  font-family: "droid";
+  width: 100%;
+  height: 200px;
+  
+  
+}
+.nav h1{
+  float: left;
+  font-size: 4rem;
+  padding-left: 1em;
+  padding-top: 0.7em;
+  
+}
+.nav h1 span{
+  display: block;
+  text-align: center;
+  color: gray;
+  letter-spacing: 5px;
+}
+.nav .opts{
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  font-family: "poppins";
+  font-size: 2rem;
+  
+}
+.opts a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.text{
+  width:60%;
+  height: 100%;
+padding-top: 60px;
+  padding-left: 80px;
+  display: inline-block;
+ 
+}
+.text h1{
+  font-size: 7rem;
+  font-family: 'canva';
+  display:block;
+}
+.text p{
+  display: block;
+  font-family: 'canva';
+  font-size: 3rem;
+  padding-top: 1em;
+  padding-right: 1em;
+  line-height: 100px;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  
+  float: right;
+  }
+.buttons #btn1{
+  font-family: "poppins";
+  background-image: url("bg.png");
+  background-size: cover;
+  border-radius: 30px;
+  display: block;
+  color: white;
+  outline: white;
+  font-size: 2rem;
+  padding: 2em 3.3em;
+  margin-top: 100px;
+}
+#btn2{
+  background: none;
+  color: white;
+  font-family: "poppins";
+  outline: none;
+  border:none;
+  font-size: 2rem;
+  margin-top: 70px;
+}
