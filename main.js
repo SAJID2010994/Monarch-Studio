@@ -22,12 +22,19 @@ gsap.from("#btn2",{
   delay:1.5
 })
 gsap.from("#btn1",{
-  scale:0,
+  y:100,
   opacity:0,
-  duration:1
+  duration:1.6,
+  delay:0.4
 })
-gsap.from("#name",{
-  y:-100,
+gsap.from("#monarch",{
   opacity:0,
   duration:2
 })
+gsap.from('#studio',{
+  y:100,
+  opacity:0,
+  duaration:2,
+  delay:0.5
+})
+

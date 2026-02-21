@@ -19,9 +19,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
-body,html{
-  overflow: hidden;
-}
 body{
   width: 100vw;
   height: 100vh;
@@ -33,18 +30,18 @@ body{
 .nav{
   font-family: "droid";
   width: 100%;
-  height: 200px;
+  height: 15vw;
   
   
 }
 .nav h1{
   float: left;
-  font-size: 4rem;
+  font-size: 4vw;
   padding-left: 1em;
   padding-top: 0.7em;
   
 }
-.nav h1 span{
+.nav h1 #studio{
   display: block;
   text-align: center;
   color: gray;
@@ -58,7 +55,7 @@ body{
   height: 100%;
   align-items: center;
   font-family: "poppins";
-  font-size: 2rem;
+  font-size: 2vw;
   
 }
 .opts a{
@@ -69,31 +66,31 @@ body{
 
 .text{
   width:60%;
-  height: 100%;
-padding-top: 60px;
-  padding-left: 80px;
+  height: calc(100% - 15vw);
+padding-top: 2vw;
+  padding-left: 5vw;
   display: inline-block;
- 
 }
 .text h1{
-  font-size: 7rem;
+  font-size: 7vw;
   font-family: 'canva';
   display:block;
+  text-wrap: nowrap;
 }
 .text p{
   display: block;
   font-family: 'canva';
-  font-size: 3rem;
+  font-size: 3vw;
   padding-top: 1em;
   padding-right: 1em;
-  line-height: 100px;
+  line-height: 5vw;
 }
 .buttons{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 40%;
-  height: 100%;
+  height: calc(100vh - 15vw);
   
   float: right;
   }
@@ -101,13 +98,13 @@ padding-top: 60px;
   font-family: "poppins";
   background-image: url("bg.png");
   background-size: cover;
-  border-radius: 30px;
+  border-radius: 0.7rem;
   display: block;
   color: white;
   outline: white;
-  font-size: 2rem;
+  font-size: 2vw;
   padding: 2em 3.3em;
-  margin-top: 100px;
+  margin-top: 7vw;
 }
 #btn2{
   background: none;
@@ -115,6 +112,6 @@ padding-top: 60px;
   font-family: "poppins";
   outline: none;
   border:none;
-  font-size: 2rem;
-  margin-top: 70px;
+  font-size: 2vw;
+  margin-top: 4vw;
 }
